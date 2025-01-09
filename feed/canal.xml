@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>DAW 111- Cristian Mateos</title>
+        <link>http://daw111.ieslossauces.es/</link>
+        <description>Últimas actualizaciones</description>
+        <language>es-es</language>
+        <pubDate>Thu, 05 Dec 2024 07:00:00 +0000</pubDate>
+        <lastBuildDate>Thu, 05 Dec 2024 07:00:00 +0000</lastBuildDate>
+        <category>Tareas</category>
+        <copyright>2024 Cristian Mateos. Todos los derechos reservados</copyright>
+        <skipDays>
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+            <hour>6</hour>
+            <hour>7</hour>
+        </skipHours>
+        <item>
+            <title>Unidad 2, Actividad 3</title>
+            <link>http://daw111.ieslossauces.es/111LMSGIProyectoLMSGI/ud2/03/index.html</link>
+            <description><![CDATA[<p><strong>actividad 3. Formulario</strong> actualizada con nuevo css.</p>]]></description>
+            <pubDate>Thu, 05 Dec 2024 07:00:00 +0000</pubDate>
+            <enclosure url="http://daw111.ieslossauces.es/webroot/media/images/ima1.png" type="image/png" length="1024"/>
+            <category>Tarea</category>
+            <guid>http://daw111.ieslossauces.es/111LMSGIProyectoLMSGI/ud2/03/index.html</guid>
+        </item>
+        <item>
+            <title>Unidad 2, Actividad 4</title>
+            <link>http://daw111.ieslossauces.es/111LMSGIProyectoLMSGI/ud2/04/index.html</link>
+            <description><![CDATA[<p><strong>actividad 4. Multimedia</strong> actualizada con nuevo css.</p>]]></description>
+            <pubDate>Thu, 05 Dec 2024 07:00:00 +0000</pubDate>
+            <enclosure url="http://daw111.ieslossauces.es/webroot/media/images/ima2.png" type="image/png" length="1024"/>
+            <category>Tarea</category>
+            <guid>http://daw111.ieslossauces.es/111LMSGIProyectoLMSGI/ud2/04/index.html</guid>
+        </item>
+        <item>
+            <title>Unidad 4, Actividad</title>
+            <link>http://www.ejemplo.com/noticia3</link>
+            <description><![CDATA[<p>Esta es la <strong>noticia 3</strong>. Puedes leer más <a href="http://www.ejemplo.com/noticia3">aquí</a>.</p>]]></description>
+            <pubDate>Thu, 05 Dec 2024 07:00:00 +0000</pubDate>
+            <enclosure url="http://daw111.ieslossauces.es/webroot/media/images/ima3.png" type="image/png" length="1024"/>
+            <category>Tarea</category>
+            <guid>http://www.ejemplo.com/noticia3</guid>
+        </item>
+    </channel>
+</rss>

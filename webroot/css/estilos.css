@@ -55,6 +55,7 @@ header h1 {
 
 .icono {
     background-color: #333333;
+    color: #B3B3B3;
     border-radius: 100px;
     height: 50px;
     width: 50px;
@@ -62,6 +63,11 @@ header h1 {
     align-items: center;
     justify-content: center;
 }
+
+.icono i{
+    color: #B3B3B3;
+}
+
 
 .icono:hover {
     height: 55px;
@@ -218,7 +224,6 @@ iframe {
 
 .cabecera h1 {
     font-size: 70px;
-    ;
 }
 
 #cabeceraprog {
@@ -313,6 +318,7 @@ iframe {
     font-size: 200%;
     display: inline-block;
     transition: opacity 0.3s ease;
+    color: #ffffff;
 }
 
 .overlay {

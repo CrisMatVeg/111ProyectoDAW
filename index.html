@@ -12,6 +12,8 @@ Ultima fecha de modificación: 17/12/2024
     <link rel="icon" type="image/x-icon" href="./webroot/media/favicon/favicon.ico">
     <link rel="stylesheet" href="./webroot/css/estilos.css" type="text/css">
     <link rel="stylesheet" href="./webroot/css/fonts.css" type="text/css">
+    <link rel="stylesheet" href="./webroot/css/claro.css" type="text/css">
+
     <link href="./feed/canal.xml" rel="alternate" type="application/rss+xml" title="titulo">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
@@ -19,8 +21,9 @@ Ultima fecha de modificación: 17/12/2024
 <body>
     <header>
         <h1>Cristian Mateos Vega</h1>
-        <div class="icono"><a href="./index.html" title="Inicio"><i class="fa-solid fa-house fa-xl"
-                    style="color: #B3B3B3;"></i></a></div>
+        <div class="icono"><a href="./index.html" title="Inicio"><i class="fa-solid fa-house fa-xl"></i></a></div>
+        <div class="icono" id="botoon"><i class="fa-solid fa-circle-half-stroke fa-xl"></i></a></div>
+        <!--<button id="botoon">Fondo Oscuro</button>-->
     </header>
     <main>
         <div class="modulos">
@@ -30,8 +33,7 @@ Ultima fecha de modificación: 17/12/2024
             <div class="moduloscontainer">
                 <a href="paginapersonal/prog.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="prog"><i class="fa-solid fa-terminal fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="prog"><i class="fa-solid fa-terminal fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
@@ -44,8 +46,7 @@ Ultima fecha de modificación: 17/12/2024
                 </a>
                 <a href="paginapersonal/lmsgi/lmsgi.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="lenguaje"><i class="fa-solid fa-code fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="lenguaje"><i class="fa-solid fa-code fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
@@ -58,8 +59,7 @@ Ultima fecha de modificación: 17/12/2024
                 </a>
                 <a href="paginapersonal/bases.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="bases"><i class="fa-solid fa-sitemap fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="bases"><i class="fa-solid fa-sitemap fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
@@ -72,8 +72,7 @@ Ultima fecha de modificación: 17/12/2024
                 </a>
                 <a href="paginapersonal/sistemas.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="sistemas"><i class="fa-solid fa-microchip fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="sistemas"><i class="fa-solid fa-microchip fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
@@ -86,36 +85,33 @@ Ultima fecha de modificación: 17/12/2024
                 </a>
                 <a href="paginapersonal/entornos.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="entornos"><i class="fa-solid fa-laptop-code fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="entornos"><i class="fa-solid fa-laptop-code fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
                         </div>
                         <div class="textmod">
                             <h3>Entornos de Desarrollo</h3>
-                            <p>Heraclio Borbujo Moran(*)</p>
+                            <p>Alejandro Hernandez García</p>
                         </div>
                     </div>
                 </a>
                 <a href="paginapersonal/optativa.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="optativa"><i class="fa-solid fa-lightbulb fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="optativa"><i class="fa-solid fa-lightbulb fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
                         </div>
                         <div class="textmod">
                             <h3>Modulo Optativo</h3>
-                            <p>Amor Rodriguez Navarro(*)</p>
+                            <p>Alejandro Hernandez García</p>
                         </div>
                     </div>
                 </a>
                 <a href="paginapersonal/ingles.html" target="miframe">
                     <div class="moduloindi">
-                        <div class="moduloico" id="ingles"><i class="fa-solid fa-flag-usa fa-2xl"
-                                style="color: #ffffff;"></i>
+                        <div class="moduloico" id="ingles"><i class="fa-solid fa-flag-usa fa-2xl"></i>
                             <div class="overlay">
                                 <i class="fa-solid fa-play"></i>
                             </div>
@@ -135,7 +131,7 @@ Ultima fecha de modificación: 17/12/2024
                 </div>
                 <div class="link"><a href="paginapersonal/ultimastareas.html" target="miframe">Ultimas Tareas</a></div>
             </div>
-            <iframe src="paginapersonal/bienvenida.html" name="miframe"></iframe>
+            <iframe id="miframe" src="paginapersonal/bienvenida.html" name="miframe"></iframe>
             <div class="footer">
                 <footer>
                     <div class="footer2">
@@ -157,13 +153,13 @@ Ultima fecha de modificación: 17/12/2024
                     <div class="footer-social">
                         <h3>Enlaces:</h3>
                         <div class="icono"><a href="https://github.com/CrisMatVeg" target="_blank" title="Github"><i
-                                    class="fa-brands fa-github fa-2xl" style="color: #B3B3B3;"></i></a></div>
+                                    class="fa-brands fa-github fa-2xl"></i></a></div>
                         <div class="icono"><a href="../CVCristianMateosVega.pdf" target="_blank" title="Curriculum"><i
-                                    class="fa-solid fa-file fa-xl" style="color: #B3B3B3;"></i></a></div>
+                                    class="fa-solid fa-file fa-xl"></i></a></div>
                         <div class="icono"><a type="application/rss+xml" href="./feed/canal.xml" target="_blank"
-                                title="RSS"><i class="fa-solid fa-rss fa-xl" style="color: #B3B3B3;"></i></a></div>
+                                title="RSS"><i class="fa-solid fa-rss fa-xl"></i></a></div>
                         <div class="icono"><a href="https://open.spotify.com/" target="_blank" title="Web Imitada"><i
-                                    class="fa-solid fa-clone fa-xl" style="color: #B3B3B3;"></i></a></div>
+                                    class="fa-solid fa-clone fa-xl"></i></a></div>
                         <div class="icono" id="w3c">
                             <a id="enlaceW3c"
                                 href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fdaw111.ieslossauces.es%2F"
@@ -177,6 +173,49 @@ Ultima fecha de modificación: 17/12/2024
             </div>
         </div>
     </main>
+    <script>
+        const boton = document.getElementById("botoon");
+        const body = document.body;
+        const iframe = document.getElementById("miframe");
+
+        function aplicarModoOscuro(activar, targetBody) {
+            if (activar) {
+                targetBody.classList.add("modo-claro");
+            } else {
+                targetBody.classList.remove("modo-claro");
+            }
+        }
+
+        function aplicarModoOscuroEnIframe(activar) {
+            try {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                if (iframeDoc.readyState === "complete") {
+                    aplicarModoOscuro(activar, iframeDoc.body);
+                } else {
+                    // Si aún no está listo, espera al load del iframe
+                    iframe.addEventListener("load", () => {
+                        aplicarModoOscuro(activar, iframe.contentDocument.body);
+                    }, { once: true });
+                }
+            } catch (error) {
+                console.warn("No se pudo aplicar el modo oscuro en el iframe:", error);
+            }
+        }
+
+        boton.addEventListener("click", function () {
+            const activar = !body.classList.contains("modo-claro");
+            aplicarModoOscuro(activar, body);
+            aplicarModoOscuroEnIframe(activar);
+        });
+
+        // También aplicar automáticamente cuando el iframe cambie de página
+        iframe.addEventListener("load", () => {
+            const activar = body.classList.contains("modo-claro");
+            aplicarModoOscuroEnIframe(activar);
+        });
+    </script>
+
+
 </body>
 
 </html>

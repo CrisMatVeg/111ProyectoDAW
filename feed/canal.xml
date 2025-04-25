@@ -6,7 +6,7 @@
         <description>Últimas actualizaciones</description>
         <language>es-es</language>
         <pubDate>Thu, 05 Dec 2024 07:00:00 +0000</pubDate>
-        <lastBuildDate>Thu, 05 Dec 2024 07:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 09 Apr 2025 15:00:00 +0000</lastBuildDate>
         <category>Tareas</category>
         <copyright>2024 Cristian Mateos. Todos los derechos reservados</copyright>
         <skipDays>
@@ -49,6 +49,15 @@
             <enclosure url="http://daw111.ieslossauces.es/webroot/media/images/ima3.png" type="image/png" length="1024"/>
             <category>Tarea</category>
             <guid>http://www.ejemplo.com/noticia3</guid>
+        </item>
+        <item>
+            <title>Unidad 3, Actividad 2</title>
+            <link>http://daw111.ieslossauces.es/111LMSGIProyectoLMSGI/ud3/02/index.html</link>
+            <description><![CDATA[<p><strong>actividad 2. Generación de tablas</strong></p>]]></description>
+            <pubDate>Wed, 09 Apr 2025 15:00:00 +0000</pubDate>
+            <enclosure url="http://daw111.ieslossauces.es/webroot/media/images/image-1.png" type="image/png" length="1024"/>
+            <category>Tarea</category>
+            <guid>http://daw111.ieslossauces.es/111LMSGIProyectoLMSGI/ud3/02/index.html</guid>
         </item>
     </channel>
 </rss>
